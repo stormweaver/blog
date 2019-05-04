@@ -4,7 +4,7 @@
             <img src="{{ .Site.Params.Logo.path }}" alt="{{ .Site.Params.Logo.alt }}" />
         {{ else }}
             <span class="logo__mark">></span>
-            <span class="logo__text">{{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>
+            <span class="logo__text" data-chaffle="en" data-chaffle-speed="1" data-chaffle-delay="15">{{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>
             <span class="logo__cursor"></span>
         {{ end }}
     </div>

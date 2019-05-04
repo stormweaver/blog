@@ -35,7 +35,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/:filename"
 
 [author]
   name = "Yanko Ivanov"
@@ -51,7 +51,7 @@ disableHugoGeneratorInject = false
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNumTime = "2 Jan 2006 @ 15:04"
 
   # Metadata mostly used in document's head
   description = "Nice theme for homepages and blogs"
@@ -66,7 +66,7 @@ disableHugoGeneratorInject = false
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
   customCSS = ["https://fonts.googleapis.com/css?family=Oswald|Vollkorn&amp;subset=cyrillic", "https://cdn.jsdelivr.net/npm/@typopro/web-bebas-neue@3.7.5/TypoPRO-BebasNeue.css"]
-  customJS  = []
+  customJS  = ["https://npmcdn.com/chaffle/chaffle.min.js"]
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = false  # Set "text-align: justify" to .content.
@@ -101,24 +101,48 @@ disableHugoGeneratorInject = false
 [languages]
   [languages.en]
     subtitle  = "Hello Friend NG Theme"
+    contentDir = "content/english"
+    title = "Yanko Ivanov"
+    homeSubtitle = "Senior web dev. Team Lead. Curious Mind."
+    languageName = "en"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.fr]
+  [languages.bg]
     subtitle  = "Hello Friend NG Theme"
+    contentDir = "content/bulgarian"
+    title = "Янко Иванов"
+    homeSubtitle = "Старши уеб дев. Ръководител екипи. Любопитник."
+    languageName = "bg"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-[menu]
-  [[menu.main]]
+[[languages.en.menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = ".me"
     url        = "about/"
-  [[menu.main]]
+
+[[languages.en.menu.main]]
     identifier = "posts"
-    name       = "Posts"
+    name       = ".blog"
     url        = "posts/"
-  [[menu.main]]
+
+[[languages.en.menu.main]]
     identifier = "cv"
-    name = "CV"
+    name = ".cv"
     url = "https://www.visualcv.com/yanko-ivanov/"
+
+[[languages.bg.menu.main]]
+    identifier = "cv"
+    name = ".cv"
+    url = "https://www.visualcv.com/yanko-ivanov/"
+
+[[languages.bg.menu.main]]
+    url    = "/posts"
+    name   = ".блог"
+    weight = 2
+
+[[languages.bg.menu.main]]
+    url    = "/about"
+    name   = "?кой"
+    weight = 3
