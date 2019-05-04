@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://stormweaver.github.io/blog/"
 title   = "Yanko Ivanov"
 
 DefaultContentLanguage = "en"
