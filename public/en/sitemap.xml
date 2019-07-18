@@ -3,127 +3,90 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://stormweaver.github.io/blog/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-05-03T01:49:40+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="bg"
-                href="https://stormweaver.github.io/blog/bg/about/"
+                href="/bg/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://stormweaver.github.io/blog/about/"
+                href="/about/"
                 />
   </url>
   
   <url>
-    <loc>https://stormweaver.github.io/blog/</loc>
+    <loc>/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="/bg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/how-to-have-a-rockstar-team/</loc>
+  </url>
+  
+  <url>
+    <loc>/how-to-hire-rockstar-devs/</loc>
+  </url>
+  
+  <url>
+    <loc>/how-to-work-with-millenial-devs/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="/bg/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="/bg/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2019-05-03T01:49:40+03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="bg"
-                href="https://stormweaver.github.io/blog/bg/"
+                href="/bg/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://stormweaver.github.io/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stormweaver.github.io/blog/posts/</loc>
-    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="https://stormweaver.github.io/blog/bg/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stormweaver.github.io/blog/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stormweaver.github.io/blog/tags/</loc>
-    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="https://stormweaver.github.io/blog/bg/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stormweaver.github.io/blog/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stormweaver.github.io/blog/my-first-post/</loc>
-    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="https://stormweaver.github.io/blog/bg/my-first-post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stormweaver.github.io/blog/my-first-post/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stormweaver.github.io/blog/tags/hi/</loc>
-    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="https://stormweaver.github.io/blog/bg/tags/hi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stormweaver.github.io/blog/tags/hi/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stormweaver.github.io/blog/tags/there/</loc>
-    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="https://stormweaver.github.io/blog/bg/tags/there/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stormweaver.github.io/blog/tags/there/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://stormweaver.github.io/blog/index.html</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="bg"
-                href="https://stormweaver.github.io/blog/bg/index.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://stormweaver.github.io/blog/index.html"
+                href="/"
                 />
   </url>
   

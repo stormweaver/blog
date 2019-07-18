@@ -1,55 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Yanko Ivanov</title>
-        <link>https://stormweaver.github.io/blog/posts/</link>
+        <link>/posts/</link>
         <description>Recent content in Posts on Yanko Ivanov</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 01 May 2019 22:34:30 +0300</lastBuildDate>
-        <atom:link href="https://stormweaver.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>What&#39;s the drama for?</title>
-            <link>https://stormweaver.github.io/blog/my-first-post/</link>
-            <pubDate>Wed, 01 May 2019 22:34:30 +0300</pubDate>
+            <title></title>
+            <link>/how-to-have-a-rockstar-team/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
             
-            <guid>https://stormweaver.github.io/blog/my-first-post/</guid>
-            <description>Inter UI is a free font family designed by Rasmus Andersson for featuring an excellent readability on computer screens. Typeface comes in 4 weights (regular, medium bold and black) and includes italic style. It works great for English-language text, and pretty well for other Latin and Cyrillic languages.
-Inter UI is very similar to Roboto for many aspects. The project started out in late 2016 as an experiment to build a perfectly pixel-fitting font at a specific small size (11px.</description>
-            <content type="html"><![CDATA[<p>Inter UI is a free font family designed by Rasmus Andersson for featuring an excellent readability on computer screens. Typeface comes in 4 weights (regular,  medium bold and black) and includes italic style. It works great for English-language text, and pretty well for other Latin and Cyrillic languages.</p>
+            <guid>/how-to-have-a-rockstar-team/</guid>
+            <description>How to have /and keep/ a rock star development team Let&amp;rsquo;s face it - managing a team of developers is hard. Developers are expensive, picky, and some even go to the extent to call them lazy. In the end though, developers are people, and usually have their reasons for everything. There are a trillion reasons why a team is performing poorly. Today I&amp;rsquo;m going to shine some light on one topic that many businesses skimp on, or miss entirely, and that is Company culture.</description>
+            <content type="html"><![CDATA[
 
-<p>Inter UI is very similar to Roboto for many aspects. The project started out in late 2016 as an experiment to build a perfectly pixel-fitting font at a specific small size (11px.)</p>
+<h1 id="how-to-have-and-keep-a-rock-star-development-team">How to have /and keep/ a rock star development team</h1>
 
-<p>The idea was that crafting a font in a particular way, with a particular coordinate system (Units Per EM), and for a particular target rasterisation size (11), it would be possible to get the best of both sharpness and readability.</p>
+<p>Let&rsquo;s face it - managing a team of developers is hard. Developers are expensive, picky, and some even go to the extent to call them lazy.  In the end though, developers are people, and usually have their reasons for everything.  There are a trillion reasons why a team is performing poorly. Today I&rsquo;m going to shine some light on one topic that many businesses skimp on, or miss entirely, and that is <strong>Company culture.</strong></p>
 
-<p>Raffy Plovdiv търси да назначи хостеси, сервитьори и бармани за новооткриващ се ресторант в кв. Тракия!
-Работата е свежа и динамична!
-Кандидатите трябва да са навършили 18 годишна възраст и да имат желание за кариерно развитие!
-Може и без опит!
-Предлагаме отлично обучение, специализация, добро заплащане и гъвкаво работно време.
-При интерес, кандидатствайте в тази обява или се свържете с нас на телефон</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">menuTrigger</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;.menu-trigger&#39;</span>)
-<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">menu</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#39;.menu&#39;</span>)
-<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">mobileQuery</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">getComputedStyle</span>(document.<span style="color:#a6e22e">body</span>).<span style="color:#a6e22e">getPropertyValue</span>(<span style="color:#e6db74">&#39;--phoneWidth&#39;</span>)
-<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">isMobile</span> <span style="color:#f92672">=</span> () =&gt; window.<span style="color:#a6e22e">matchMedia</span>(<span style="color:#a6e22e">mobileQuery</span>).<span style="color:#a6e22e">matches</span>
-<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">isMobileMenu</span> <span style="color:#f92672">=</span> () =&gt; {
-  <span style="color:#a6e22e">menuTrigger</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">toggle</span>(<span style="color:#e6db74">&#39;hidden&#39;</span>, <span style="color:#f92672">!</span><span style="color:#a6e22e">isMobile</span>())
-  <span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">toggle</span>(<span style="color:#e6db74">&#39;hidden&#39;</span>, <span style="color:#a6e22e">isMobile</span>())
-}
- 
-<span style="color:#a6e22e">isMobileMenu</span>()
+<p>Company culture is something that usually forms organically in a team, but in order to keep everything nice and smooth, you really want to steer it in the right direction, in order not to shoot yourself in the business.</p>
 
-<span style="color:#a6e22e">menuTrigger</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;click&#39;</span>, () =&gt; <span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">toggle</span>(<span style="color:#e6db74">&#39;hidden&#39;</span>))
+<p>Here are 7 advices  on how you can build a happy, productive team by managing the culture:</p>
 
-window.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#39;resize&#39;</span>, <span style="color:#a6e22e">isMobileMenu</span>)
-</code></pre></div>
+<h3 id="1-sharing-mentality">1. Sharing mentality</h3>
 
-    <img src="/wallhaven-760703.jpg"  alt="Hello Friend"  class="center"  style="border-radius: 8px;"  />
+<p>As a rather famous bunch of bears said, &ldquo;Sharing is caring&rdquo;! In the IT world, this usually boils down to sharing knowledge freely, quickly, and easily. In practice, this means that you have to strive for spreading knowledge in every direction. New requirements, technical breakthroughs, lessons learned during  development - you&rsquo;d want to push these across the team as soon as possible. Having more knowledge in the team means less surprises, less frustration, and increased productivity.</p>
 
+<h3 id="2-no-as-hole-policy">2. No as*hole policy</h3>
 
+<p>We all know the myth of the rock star developer. The lone wolf that swoops in and does 100x the work. The Dr. House, who is always grumpy and arrogant, but saves the day. In practice, if you have just one toxic person in your team, that brings down the whole team morale, FAST. The toxicity spreads in mere months, and even if you catch the issue at some point, and part ways with this person (implying he&rsquo;s just one), he may have already created a feedback loop that perseveres, and is now a part of company culture. The damage transfers to new hires, and it usually results in low retention rate, low productivity, and low overall engagement.</p>
 
+<h3 id="3-us-me">3. Us &gt; Me</h3>
 
+<p>This is a tricky one to pull-off, but can really create wonders for your company. In order to build a high-functioning team, there should be a common understanding that every person is part of something bigger, and that they have each other&rsquo;s backs. This is the only way in which everybody knows that the team is something bigger than the sum of every individual.</p>
 
+<h3 id="4-focus-on-growth">4. Focus on growth</h3>
+
+<p>If possible, try to instill a dislike for mediocrity. Try to push people just a bit outside of their comfort zone each day. Get some targets in place, set metrics for them, and shoot. What you want is steady, sustainable, <strong>repeatable</strong> growth. Meaning, the last thing you want is people
+who are on the verge of burnout. So, make sure that people are growing steadily as people, and as professionals, and celebrate the small wins along the way.</p>
+
+<h3 id="5-default-to-transparency">5. Default to transparency</h3>
+
+<p>Whenever possible, keep your team in the loop. Even if you think they don&rsquo;t care, or you think it&rsquo;s irrelevant. Keep your decision making process open, and post regular updates on how everything is going. In good and in bad times.</p>
+
+<p>There&rsquo;s a common (mis)understanding that employees need the bare minimum of information to get their job done - that everything else is noise, and imparts productivity. In reality, this is the main cause of rumors, and toxic work environments. Faced with lack of information, people start speculating, and they come to conclusions that work in their own minds. And if they don&rsquo;t like the conclusions, they leave your company. Simple as that.</p>
+
+<p>The best way to prevent this from happening, is to keep things grounded, and out in the open. Yes you might lose some people, but the majority will appreciate the honesty. If you&rsquo;re really worried that the information will impact their productivity, you can always keep it asynchronous, and present it in the  form of an internal company newsletter. In this way, everybody can decide for themselves whether the information is relevant to them, and
+when to read it.</p>
+
+<h3 id="6-keep-in-touch-with-the-team-s-pulse">6.  Keep in touch with the team&rsquo;s pulse</h3>
+
+<p>An ideal way to do this is to perform regular 1 on 1 meetings with your team. You will be amazed at how much insight you can gain by having a 15 minute long conversation with each team member. Developers especially are a shy bunch, so this form of communication would give you a really great perspective of your team. What you want to do during this meeting is indicate how things have changed from your last meeting, were the changes beneficial, and what would you want to do or change until your next such meeting. Have a list of points you&rsquo;d want to discuss, but also keep the conversation going, so as not to miss nuggets of useful info.</p>
+
+<h3 id="7-have-a-feedback-loop-keep-it-balanced">7. Have a feedback loop. Keep it balanced.</h3>
+
+<p>Having 1 on 1&rsquo;s is great, but closing the feedback loop is equally important. In order to fully utilize the team voice, you need to hear and understand them loud and clear. One way to do this is to have a clear overall plan for getting feedback. One such way is a <a href="https://www.thebalancecareers.com/what-is-a-360-review-1917541" target="_blank">360 review </a>.</p>
+
+<blockquote>
+<p><em>The 360 review is a <a href="https://www.thebalancecareers.com/360-degree-feedback-information-1917537" target="_blank">professional feedback opportunity</a> that enables a group of coworkers to provide feedback about a fellow employee’s performance. The feedback was traditionally asked for by the manager to whom the employee reported.</em></p>
+</blockquote>
+
+<p>Essentially, it is a way to have a clear metric on an employee&rsquo;s performance, and a great way for them to validate themselves. A great side effect is that managers also pass through the review, so one can identify problem areas on the managerial layer in their organization quickly. A key advice here is to focus equally on people&rsquo;s strengths and weaknesses. The review process is neither a bashing contest, neither an ego booster. The review is a tool for people to get better, and to get actionable insights. It also has to be just a part of a bigger feedback loop, not a one-stop-shop.</p>
+
+<h3 id="7-we-re-on-a-mission">7. We&rsquo;re on a mission!</h3>
+
+<blockquote>
+<p><em>“Customers will never love a company until the employees love it first.”</em>
+– Simon Sinek, author, Start with Why</p>
+</blockquote>
+
+<p>Everybody is trying to get their team more involved, and enthusiastic about their work. What you want to do is make it easier for your team to identify with their work(place). THE most basic thing you could do is to give a meaningful answer to the question &ldquo;<strong>How are we helping people?</strong>&rdquo;.  Many businesses don&rsquo;t stop to outline the purpose of their business to their team. The business&rsquo;s mission, from your team&rsquo;s perspective, isn&rsquo;t earning more profits, or taking a bigger market share. When you boil it down it pays their salary, it takes up 8 hours of their lives every day, and that&rsquo;s mostly it. So getting your team on board the idea that they&rsquo;re making people&rsquo;s lives better actually gives them two huge benefits:</p>
+
+<ol>
+<li>They are a part of something bigger than themselves,</li>
+<li>It gets them into the mindset that they&rsquo;re making a difference in this world.</li>
+</ol>
+
+<p>Usually businesses help people through their products, but there&rsquo;s usually more to it. Never underestimate the emotional side to it. People like to identify with products, and if your own team internalizes the idea that they are shaping something groundbreaking, this will lead to amazing things.</p>
+
+<p>We hope that you found these advices useful. If you have any questions, or advice, don&rsquo;t hesitate to drop us a line!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>/how-to-hire-rockstar-devs/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>/how-to-hire-rockstar-devs/</guid>
+            <description>How to hire great developers Hiring great developers is a long journey, and it starts from the job ad, and CV selection. Screening should always be done with company culture in mind. In general, even if a candidate is a bit lacking in tech skills, but is a great culture fit, you should</description>
+            <content type="html"><![CDATA[
+
+<h1 id="how-to-hire-great-developers">How to hire great developers</h1>
+
+<p>Hiring great developers is a long journey, and it starts from the job ad, and CV selection.
+Screening should always be done with company culture in mind. In general, even if a candidate is a bit lacking in tech
+skills, but is a great culture fit, you should</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title></title>
+            <link>/how-to-work-with-millenial-devs/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>/how-to-work-with-millenial-devs/</guid>
+            <description>+++ date = &amp;quot;2019-05-01T22:34:30+03:00&amp;quot; title = &amp;quot;How to work with millennial developers&amp;quot; tags = [&amp;quot;millennial&amp;quot;,&amp;quot;developers&amp;quot;, &amp;quot;management&amp;quot;] keywords = [&amp;quot;millennial&amp;quot;,&amp;quot;developers&amp;quot;, &amp;quot;management&amp;quot;] +++ --------------------------------------------  How to manage millennial developers like a boss coach! Every once in a while, somebody comes along and starts complaining about working with millennials in their team.
+ Millennials are lazy!
+Millennials are entitled!
+Millennials aren&amp;rsquo;t engaged!
+ And oftentimes, they are right from their tower. Today we&amp;rsquo;re going</description>
+            <content type="html"><![CDATA[
+
+<pre><code>+++
+date = &quot;2019-05-01T22:34:30+03:00&quot;
+title = &quot;How to work with millennial developers&quot;
+tags = [&quot;millennial&quot;,&quot;developers&quot;, &quot;management&quot;]
+keywords = [&quot;millennial&quot;,&quot;developers&quot;, &quot;management&quot;]
++++ 
+--------------------------------------------
+</code></pre>
+
+<h1 id="how-to-manage-millennial-developers-like-a-boss-coach">How to manage millennial developers like a <del>boss</del> coach!</h1>
+
+<p>Every once in a while, somebody comes along and starts complaining about working with millennials in their team.</p>
+
+<blockquote>
+<p><em>Millennials are lazy!</em></p>
+
+<p><em>Millennials are entitled!</em></p>
+
+<p><em>Millennials aren&rsquo;t engaged!</em></p>
+</blockquote>
+
+<p>And oftentimes, they are right from their tower. Today we&rsquo;re going</p>
+
+<p>to assess both parties, and outline some ways to make the most of the situation.</p>
+
+<h2 id="important-numbers-and-backstory">Important numbers and backstory</h2>
+
+<p>In order to paint a clear picture of the target demographic, we have to first see where they&rsquo;re coming from:</p>
+
+<blockquote>
+<p>Millenials are the generation born in the &lsquo;80s, &lsquo;90s and some push it as far as the early &lsquo;00s.
+Since 2016, they represent the largest percentage of the workforce (54%).</p>
+
+<p><strong>The first digital natives.</strong>
+They are the first generation that either grew up with the Internet, or had a smart device from early age.  Gallup found that 91% of millennials owned smartphones in 2013, compared with 83% of older generations.</p>
+
+<p><strong>Crisis and debt.</strong>
+In 2014, total outstanding student debt reached nearly $1.2 trillion dollars,
+according to the Federal Reserve Bank of New York. Total student loan
+balances have tripled since 2004 and are the second-largest category of
+borrowing after mortgages.</p>
+
+<p><strong>Disloyal.</strong></p>
+
+<p>Half of millennials — compared with 60% of non-millennials — strongly agree that they plan to be working at their company one year from now.</p>
+</blockquote>
+
+<p>As disheartening and frustrating as these may seem, there is sound reasoning behind how this whole generation came up this way.</p>
+
+<p>You see, their parents - coined &ldquo;baby boomers&rdquo; in the US - followed a keen stance on bringing a healthy sense of self-esteem in their children, from a really young age. And they did.</p>
+
+<p>The kids had participatory trophies, which <strong>weren&rsquo;t tied</strong> with any real accomplishments. They <strong>were</strong> told they could do everything they set their minds upon. That the world was their oyster, ready for the taking. They <strong>were</strong> told that education was critical to their success in life - that it was <strong>all they needed</strong> to land a successful job. They <strong>were</strong> told that they&rsquo;re special, and they believed.</p>
+
+<p>This coincided with the digital revolution, which gave rise to a constantly connected bunch of youths. Peers became much more important, and self-image started to revolve much more around how you&rsquo;re perceived, and not by how much you&rsquo;ve actually achieved. The quick dopamine rush of likes, followers, comments and overall digital appearance made them more focused on quick wins, &ldquo;viral&rdquo; popularity overnight, which usually, for them, translates to success.</p>
+
+<p>To top the above situation, this is the generation that grew up during the financial crisis of 2008, and were brought into adulthood under its sign, and after its aftermath. Many millennials had just graduated high school or college,  and entering a turbulent job market has taught them to adapt quickly, and survive.</p>
+
+<p>In short, if we have to paint a characteristic of the millennial, we have a person who is coming from a very optimistic upbringing, thrives online, and has had a severe disillusionment when faced with the transition into the market and adulthood.</p>
+
+<h2 id="what-has-been-done-until-now">What has been done until now?</h2>
+
+<p>Managers and CEOs alike are very aware that the labour force is shifting, and there have been numerous research on what the generation wants from their employers. Terms like &ldquo;engagement&rdquo;, &ldquo;impact&rdquo;, &ldquo;work-life balance&rdquo; had surfaced, but no matter how many ping-pong tables, free lunches, team buildings and all sorts of motivational approaches have been tested, the millennials are still unhappy.</p>
+
+<hr />
+
+<h2 id="so-what-the-f-do-they-want">So what the f do they want?</h2>
+
+<p>Let&rsquo;s try to visualize a millennial-business translator for a change, and start from there. Here are some examples:</p>
+
+<p>What they say: <strong><em>&ldquo;We want more impact!&rdquo;</em></strong></p>
+
+<p>What they mean: <strong><em>&ldquo;We don&rsquo;t have much influence over the workplace dynamics, or freedom on how to do our jobs.&rdquo;</em></strong></p>
+
+<p>What the business thinks: <strong><em>&ldquo;You&rsquo;ve been here for 3 months, what the f do you want impact over!?&rdquo;</em></strong></p>
+
+<p>What&rsquo;s happening is, this is a bunch of people who are used to fast action-reaction cycles. And to choice, and to instant gratification, and fast feedback. They expect everything to happen fast. When they realize that climbing a hierarchy takes an immense amount of effort and skills, and not a lot of hand-holding, they are much more inclined to just give up.  Voicing their confusion usually comes through as moaning, or complaining.</p>
+
+<p>What they actually need and want is a structured, transparent action plan that they could follow. Of course, it should grant them enough freedom to actually feel non-constricting. This, and formalized input from their supervisor.</p>
+
+<h3 id="how-does-this-help-my-business">How does this help my business?</h3>
+
+<p>Well, this shouldn&rsquo;t come as a surprise, but you should already have these in place, no matter the generation. If you have rigid hierarchy in place, you probably already have fixed processes, and pipelines in your organization. Having them written down, and easily accessible would instill a sense of clarity in any employee reading this document. They would know exactly what is expected of them, and how to climb the organizational ladder. This, in turn, would lead to more engagement.</p>
+
+<p>As we noticed above, these people are <a href="https://en.wikipedia.org/wiki/Netizen" target="_blank">netizens</a>. They&rsquo;re used to being connected, to value other people&rsquo;s opinion (even when it&rsquo;s not in their best interest), and are natural team players. Dialog is what they understand inherently.What you could do, is utilize this characteristic, and start a dialog on what you want your business to achieve, and get them more involved on how to get there. Which leads us to the next translation:</p>
+
+<hr />
+
+<p>What they say: <strong><em>&ldquo;We want a purpose!&rdquo;</em></strong></p>
+
+<p>What they mean: <strong><em>&ldquo;We&rsquo;re brought up believing that we can change the world. We aren&rsquo;t changing the world, and we feel bad about it.&rdquo;</em></strong></p>
+
+<p>What the business thinks: <strong><em>&ldquo;Your job is to do X, we have profits and shareholders and milestones to think about, focus!&rdquo;</em></strong></p>
+
+<p>See, pretty much everyone want a bigger paycheck. Maybe a corner office, maybe a fat fancy title. But millennials are maybe the first ones who would turn down a bigger salary, if they believe that they&rsquo;re changing the world in some way, or making people&rsquo;s lives better. And they want this to be tangible, <strong><em>to feel good, to get their dopamine rush.</em></strong> So let them. There are a plethora of ways to change the world in small ways, no matter your industry. And it&rsquo;s always in your best interest, because usually your happy employees are your best advocates and  brand evangelists.</p>
+
+<p>You&rsquo;re harming the environment (in)directly? Plant some trees!
+You&rsquo;re in marketing? Focus a brand campaign into helping a community!
+Banking? Let your employees volunteer for a few hours every month!
+IT/Software development? Write some open source, or invest in open source!
+Retail? Help the environment! Recycle! Position yourself as nature-friendly!</p>
+
+<p>There&rsquo;s always a way to do something that just feels nice, and easily doable.</p>
+
+<h3 id="okay-but-again-how-does-this-help-my-business">Okay, but again, how does this help my business?</h3>
+
+<p>Well, don&rsquo;t forget that the millennials who are employees in your organizations, are obviously your clients outside of it. Their peers and friends have the same tendencies, tastes and characteristics. If you hear their voice from inside the company, and follow it, there will be many more outside of it, who will love to identify with your brand.</p>
+
+<p>Okay enough with the translator. Let&rsquo;s focus on some other misalignments between gen Y expectations and reality:</p>
+
+<h3 id="are-you-my-boss-coach-friend-mentor">Are you my &hellip;Boss? Coach? Friend? Mentor?</h3>
+
+<p>Another hit that the millennial&rsquo;s reality takes is the power dynamic in the workplace. They are the generation that mostly jumbles professional life with personal life - unlike baby boomers who put a clear fence between the two. As a consequence, the former have mixed expectations from their direct supervisor. Expectations include a gentler approach, but insist on transparency and honesty. They value authenticity and integrity in their leaders.</p>
+
+<p>For you, this means that giving direct orders and expecting a blindfolded execution without any questions won&rsquo;t work anymore (or will work for a really short while, until you&rsquo;re handed a resignation letter). What would work, is a laser focused vision for the company and its goals, and how every department contributes to this vision. From then on, give advice on how they could achieve these goals, set clear metrics for whether they&rsquo;re achieved or not, and have faith in your teams. But by all means, enter a clear measurable workflow, and keep a short feedback loop across all departments. You would also be wise to set clear boundaries between professional and personal, as that might be a grey area currently.</p>
+
+<h3 id="in-conclusion">In conclusion:</h3>
+
+<p>The emerging workforce of today is coming from a tough place, and has to deal with a turbulent job market that doesn&rsquo;t really understand it. It will be a hard transition, but with open channels for dialog, and some change, both sides can benefit immensely.</p>
+
+<p>Hope you&rsquo;ve found this article useful. If you think we&rsquo;ve missed something, or have a comment, don&rsquo;t hesitate to contact us!</p>
 ]]></content>
         </item>
         

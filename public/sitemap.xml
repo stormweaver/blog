@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>https://stormweaver.github.io/blog/en/sitemap.xml</loc>
+	   	<loc>/en/sitemap.xml</loc>
 		
 	   	<lastmod>2019-05-03T01:49:40+03:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>https://stormweaver.github.io/blog/bg/sitemap.xml</loc>
+	   	<loc>/bg/sitemap.xml</loc>
 		
 	   	<lastmod>2019-05-03T01:49:40+03:00</lastmod>
 		

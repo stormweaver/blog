@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/bg/about/</loc>
+    <lastmod>2019-05-03T01:49:40+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="/bg/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>/bg/my-first-post/</loc>
+    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/bg/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="/bg/"
+                />
+  </url>
+  
+  <url>
+    <loc>/bg/tags/hi/</loc>
+    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/bg/posts/</loc>
+    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="/bg/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/bg/tags/</loc>
+    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="/bg/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/bg/tags/there/</loc>
+    <lastmod>2019-05-01T22:34:30+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/bg/</loc>
+    <lastmod>2019-05-03T01:49:40+03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bg"
+                href="/bg/"
+                />
+  </url>
+  
+</urlset>

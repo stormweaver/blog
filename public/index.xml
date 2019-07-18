@@ -2,32 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yanko Ivanov</title>
-    <link>https://stormweaver.github.io/blog/</link>
+    <link>/</link>
     <description>Recent content on Yanko Ivanov</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 03 May 2019 01:49:40 +0300</lastBuildDate>
     
-	<atom:link href="https://stormweaver.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://stormweaver.github.io/blog/about/</link>
+      <link>/about/</link>
       <pubDate>Fri, 03 May 2019 01:49:40 +0300</pubDate>
       
-      <guid>https://stormweaver.github.io/blog/about/</guid>
+      <guid>/about/</guid>
       <description>is this about? /default/</description>
     </item>
     
     <item>
-      <title>What&#39;s the drama for?</title>
-      <link>https://stormweaver.github.io/blog/my-first-post/</link>
-      <pubDate>Wed, 01 May 2019 22:34:30 +0300</pubDate>
+      <title></title>
+      <link>/how-to-have-a-rockstar-team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://stormweaver.github.io/blog/my-first-post/</guid>
-      <description>Inter UI is a free font family designed by Rasmus Andersson for featuring an excellent readability on computer screens. Typeface comes in 4 weights (regular, medium bold and black) and includes italic style. It works great for English-language text, and pretty well for other Latin and Cyrillic languages.
-Inter UI is very similar to Roboto for many aspects. The project started out in late 2016 as an experiment to build a perfectly pixel-fitting font at a specific small size (11px.</description>
+      <guid>/how-to-have-a-rockstar-team/</guid>
+      <description>How to have /and keep/ a rock star development team Let&amp;rsquo;s face it - managing a team of developers is hard. Developers are expensive, picky, and some even go to the extent to call them lazy. In the end though, developers are people, and usually have their reasons for everything. There are a trillion reasons why a team is performing poorly. Today I&amp;rsquo;m going to shine some light on one topic that many businesses skimp on, or miss entirely, and that is Company culture.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/how-to-hire-rockstar-devs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/how-to-hire-rockstar-devs/</guid>
+      <description>How to hire great developers Hiring great developers is a long journey, and it starts from the job ad, and CV selection. Screening should always be done with company culture in mind. In general, even if a candidate is a bit lacking in tech skills, but is a great culture fit, you should</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/how-to-work-with-millenial-devs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/how-to-work-with-millenial-devs/</guid>
+      <description>+++ date = &amp;quot;2019-05-01T22:34:30+03:00&amp;quot; title = &amp;quot;How to work with millennial developers&amp;quot; tags = [&amp;quot;millennial&amp;quot;,&amp;quot;developers&amp;quot;, &amp;quot;management&amp;quot;] keywords = [&amp;quot;millennial&amp;quot;,&amp;quot;developers&amp;quot;, &amp;quot;management&amp;quot;] +++ --------------------------------------------  How to manage millennial developers like a boss coach! Every once in a while, somebody comes along and starts complaining about working with millennials in their team.
+ Millennials are lazy!
+Millennials are entitled!
+Millennials aren&amp;rsquo;t engaged!
+ And oftentimes, they are right from their tower. Today we&amp;rsquo;re going</description>
     </item>
     
   </channel>
